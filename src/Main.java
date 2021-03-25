@@ -20,8 +20,8 @@ public class Main {
         String myCodedFile = "C:\\Users\\Devin McDermott\\IdeaProjects\\codedmessage.txt";
         String myDecodedFile = "C:\\Users\\Devin McDermott\\IdeaProjects\\decodedmessage.txt";
 
-        // FileHandler.encrypt_to_new_file(myFile, myCodedFile, "rot20");
-        // FileHandler.encrypt_to_new_file(myCodedFile, myDecodedFile, "unrot20");
+         FileHandler.encrypt_to_new_file(myFile, myCodedFile, "rot20");
+         FileHandler.encrypt_to_new_file(myCodedFile, myDecodedFile, "unrot20");
 
 
     }

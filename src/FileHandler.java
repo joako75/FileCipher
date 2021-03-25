@@ -108,6 +108,7 @@ public class FileHandler {
                     }
             }
             System.out.println("File encrypted");
+
         } catch (FileNotFoundException e) {
             System.out.println("An error occurred.");
             e.printStackTrace();

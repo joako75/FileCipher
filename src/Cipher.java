@@ -50,6 +50,7 @@ public class Cipher {
                 encoded.add(alphabet_array[alphabet.indexOf(c) + 13]);
             }
         }
+
         StringBuffer sb = new StringBuffer();
         for(String letter : encoded){
             sb.append(letter);
